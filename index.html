@@ -1,185 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- displays site properly based on user's device -->
 
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="./images/favicon-32x32.png"
-        />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-        <title>
-            Frontend Mentor | Huddle landing page with alternating feature
-            blocks
-        </title>
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <!-- <style>
-            .attribution {
-                font-size: 11px;
-                text-align: center;
-            }
-            .attribution a {
-                color: hsl(228, 45%, 44%);
-            }
-        </style> -->
-    </head>
-    <body class="">
-        <header>
-            <img src="images/logo.svg" alt="" />
+    <title>
+        Frontend Mentor | Huddle landing page with alternating feature
+        blocks
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-            <button>Try It Free</button>
+<body>
+    <div class="bg-blue-200">
+
+        <header class="p-8 mb-4 flex justify-between items-center">
+            <img src="images/logo.svg" alt="logo" class="w-2/6 lg:w-1/6" />
+            <button class="bg-white shadow-lg px-4 py-2 lg:py-4 rounded-full w-2/6 lg:w-1/6">Try It Free</button>
         </header>
 
-        <main>
-            <section class="showcase">
-                <div class="showcase-left">
-                    <h1 class="">Build The Community Your Fans Will Love</h1>
-                    <p  class="">
-                        Huddle re-imagines the way we build communities. You
-                        have a voice, but so does your audience. Create
-                        connections with your users as you engage in genuine
-                        discussion.
-                    </p>
-                    <button>Get Started For Free</button>
-                </div>
-                <div class="showcase-right">
-                    <img
-                        src="images/illustration-mockups.svg"
-                        alt="illustration"
-                    />
-                </div>
-            </section>
+        <section class="showcase flex flex-col text-center lg:text-left p-4 lg:flex-row ">
+            <div class="showcase-left lg:w-1/2 lg:p-8">
+                <h1 class="text-4xl font-bold px-4 py-8 lg:px-8 lg:text-5xl lg:py-2">Build The Community Your Fans Will
+                    Love</h1>
+                <p class="text-xl font-semibold p-8">
+                    Huddle re-imagines the way we build communities. You
+                    have a voice, but so does your audience. Create
+                    connections with your users as you engage in genuine
+                    discussion.
+                </p>
+                <button class="bg-pink-500 py-4 px-8 m-8 lg:m-4 rounded-full w-4/5 lg:w-1/2 text-white ">Get Started For
+                    Free</button>
+            </div>
+            <div class="showcase-right lg:w-1/2">
+                <img src="images/illustration-mockups.svg" alt="illustration" />
+            </div>
+        </section>
 
-            <section class="illustrations">
-                <div class="Grow-Together">
-                    <div class="illustration-left">
-                        <h2>Grow Together</h2>
-                        <p>
-                            Generate meaningful discussions with your audience
-                            and build a strong, loyal community. Think of the
-                            insightful conversations you miss out on with a
-                            feedback form.
-                        </p>
-                    </div>
-                    <div class="illustration-right">
-                        <img
-                            src="images/illustration-grow-together.svg"
-                            alt="illustration-grow-together"
-                        />
-                    </div>
-                </div>
+    </div>
 
-                <div class="Flowing-Conversations">
-                    <div class="illustration-left">
-                        <h2>Flowing Conversations</h2>
-                        <p>
-                            You wouldn't paginate a conversation in real life,
-                            so why do it online? Our threads have just-in-time
-                            loading for a more natural flow.
-                        </p>
-                    </div>
-                    <div class="illustration-right">
-                        <img
-                            src="images/illustration-flowing-conversation.svg"
-                            alt="illustration-flowing-conversation"
-                        />
-                    </div>
-                </div>
+    <main class="p-8  bg-gray-100">
+        <section class="illustrations">
 
-                <div class="Your-users">
-                    <div class="illustration-left">
-                        <h2>Your Users</h2>
-                        <p>
-                            It takes no time at all to integrate Huddle with
-                            your app's authentication solution. This means, once
-                            signed in to your app, your users can start chatting
-                            immediately.
-                        </p>
-                    </div>
-                    <div class="illustration-right">
-                        <img
-                            src="images/illustration-your-users.svg"
-                            alt="illustration-your-users"
-                        />
-                    </div>
-                </div>
-            </section>
+            <div
+                class="Grow-Together bg-white shadow-lg p-8 lg:p-4 lg:m-16 my-8 rounded-lg lg:rounded-xl flex flex-col-reverse lg:flex-row justify-center items-center">
 
-            <section class="call-to-action">
-                <div class="cta">
-                    <h2>Ready To Build Your Community?</h2>
+                <div class="illustration-left text-center lg:text-left lg:px-16">
 
-                    <button>Get Started For Free</button>
-                </div>
-            </section>
-        </main>
+                    <h2 class="text-2xl font-bold my-8 lg:text-3xl">Grow Together</h2>
 
-        <footer>
-            <!-- Logo, Location, Email, Phone Number section -->
-            <section>
-                <img src="images/logo.svg" alt="logo" />
-
-                <div>
-                    <img src="images/icon-location.svg" alt="location-icon" />
-                    <p class="ml-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua
+                    <p class="text-xl my-4 text-gray-500 lg:w-4/6">
+                        Generate meaningful discussions with your audience
+                        and build a strong, loyal community. Think of the
+                        insightful conversations you miss out on with a
+                        feedback form.
                     </p>
                 </div>
-                <div>
-                    <img src="images/icon-phone.svg" alt="icon-phone" />
-                    <p>+1-543-123-4567</p>
+
+                <div class="illustration-right">
+                    <img src="images/illustration-grow-together.svg" alt="illustration-grow-together" class="" />
                 </div>
-                <div>
-                    <img src="images/icon-email.svg" alt="icon-email" />
-                    <p>example@fylo.com</p>
-                </div>
-            </section>
-
-            <!-- links 1 section -->
-            <section>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">What We Do</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </section>
-
-            <!-- links 2 section -->
-            <section>
-                <ul>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </ul>
-            </section>
-
-            <!-- Social Icons -->
-            <div>
-                <i><img src="images/icon-facebook.svg" alt="icon" /></i>
-                <i><img src="images/icon-instagram.svg" alt="icon" /></i>
-                <i><img src="images/icon-email.svg" alt="icon" /></i>
             </div>
 
-            <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
-            <div>
-                <p class="attribution">
-                    Challenge by
-                    <a
-                        href="https://www.frontendmentor.io?ref=challenge"
-                        target="_blank"
-                        >Frontend Mentor</a
-                    >. Coded by <a href="#">Your Name Here</a>.
+            <div
+                class="Flowing-Conversations  bg-white shadow-lg p-8 lg:p-4 lg:m-16 my-8 rounded-lg lg:rounded-xl flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
+                <div class="illustration-left text-center  lg:text-left lg:px-16">
+
+                    <h2 class="text-2xl font-bold my-8 lg:text-3xl">Flowing Conversations</h2>
+
+                    <p class="text-xl my-4 text-gray-500">
+                        You wouldn't paginate a conversation in real life,
+                        so why do it online? Our threads have just-in-time
+                        loading for a more natural flow.
+                    </p>
+                </div>
+                <div class="illustration-right">
+                    <img src="images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" />
+                </div>
+            </div>
+
+            <div
+                class="Your-users  bg-white shadow-lg p-8 lg:p-4 lg:m-16 my-8 rounded-lg lg:rounded-xl flex flex-col-reverse lg:flex-row justify-center items-center">
+
+                <div class="illustration-left text-center lg:text-left lg:px-16">
+
+                    <h2 class="text-2xl font-bold my-8 lg:text-3xl">Your Users</h2>
+
+                    <p class="text-xl my-4 text-gray-500 lg:w-4/6">
+                        It takes no time at all to integrate Huddle with
+                        your app's authentication solution. This means, once
+                        signed in to your app, your users can start chatting
+                        immediately.
+                    </p>
+                </div>
+                <div class="illustration-right">
+                    <img src="images/illustration-your-users.svg" alt="illustration-your-users" />
+                </div>
+
+            </div>
+        </section>
+
+        <section class="call-to-action bg-white p-8 my-8 rounded-md relative top-36 md:w-3/5 md:mx-auto">
+            <div class="cta text-center">
+                <h2 class="text-xl font-bold my-4 md:text-2xl">Ready To Build Your Community?</h2>
+
+                <button class="bg-pink-500 py-4 px-8 m-4 rounded-full text-white text-lg ">Get Started For Free</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-cyan-950 text-white p-8 pt-32 lg:pt-38 lg:flex lg:flex-row lg:justify-between lg:items-start">
+        <!-- Logo, Location, Email, Phone Number section -->
+        <section class="lg:w-2/6" >
+            <img src="images/logo-white.svg" alt="logo" class="" />
+
+            <div class="flex justify-start items-center my-4">
+                <img src="images/icon-location.svg" alt="location-icon" />
+                <p class="ml-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua
                 </p>
             </div>
-        </footer>
-    </body>
+
+            <div class="flex justify-start items-center my-4">
+                <img src="images/icon-phone.svg" alt="icon-phone" />
+                <p class="ml-4">+1-543-123-4567</p>
+            </div>
+
+            <div class="flex justify-start items-center my-4">
+                <img src="images/icon-email.svg" alt="icon-email" />
+                <p class="ml-4">example@fylo.com</p>
+            </div>
+        </section>
+
+        <!-- links 1 section -->
+        <section class="mt-8 lg:m-0">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </section>
+
+        <!-- links 2 section -->
+        <section class="">
+            <ul>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </section>
+
+        <!-- Social Icons and copyright -->
+        <div class="flex flex-col justify-between items-center mt-16">
+            <div class="flex justify-center items-center mb-8 lg:mb-16">
+
+                <i class="mr-4"><img src="images/icon-facebook.svg" alt="icon" /></i>
+                <i class="mr-4"><img src="images/icon-instagram.svg" alt="icon" /></i>
+                <i><img src="images/icon-facebook.svg" alt="icon" /></i>
+            </div>
+
+            <div class="text-center text-sm self-end lg:mt-24">
+                <p class="text-center">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+                <p class="attribution">
+                    Challenge by
+                    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+                    <a href="#">Marvel Victor</a>.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
 </html>
